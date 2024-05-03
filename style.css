@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+.body{
+  margin-inline: 4%;
+}
+
 .header {
   background-color: #f1f1f1;
   border-radius: 20px;
@@ -202,8 +206,7 @@ h3 {
 
 .Merchant {
   margin-top: 129px;
-  width: 16%;
-  margin-left: 5%;
+  width: 13%;
 }
 
 .View {
@@ -257,7 +260,7 @@ h3 {
 
 .carousel .carouselDiv {
   display: flex;
-  width: 80%;
+  width: 100%;
 }
 
 .divv {
@@ -267,13 +270,13 @@ h3 {
 
 .carousel {
   position: relative;
-  width: 65%;
+  width: 77%;
   height: 100%;
   margin-left: 10%;
 }
 
 .carousel ul {
-  width: 100%;
+  width: 94%;
 }
 
 .carousel li {
@@ -282,12 +285,13 @@ h3 {
   border: 2px solid transparent;
   transition: border-color 0.5s ease;
   margin-top: 100px;
+  margin-left: 1%;
 }
 
 .carousel .carouselImage {
-  max-width: calc(96% / 2);
   max-height: 100%;
-  height: 287px;
+  height: 407px;
+  width: 50%;
 }
 
 .prev,
@@ -303,12 +307,12 @@ h3 {
 }
 
 .prev {
-  left: -3%;
+  left: 0%;
   font-size: 30px;
 }
 
 .next {
-  right: 8%;
+  right: 0%;
   font-size: 30px;
 }
 
@@ -349,15 +353,16 @@ h3 {
 }
 .row {
   display: flex;
-  margin-top: 10%;
-  margin-left: 8%;
-  width: 80%;
+  margin-top: 71px;
+  /* margin-left: 2%; */
+  width: 100%;
 }
 
 .image-container {
   position: relative;
-  width: 50%;
-  margin-left: 2%;
+  width: 49%;
+  margin-left: 1%;
+
 }
 
 .image-container img {
@@ -366,13 +371,12 @@ h3 {
 }
 
 .imageParagraf {
-  width: 95%;
+  width: 100%;
 }
 
 .text2 {
   position: relative;
   bottom: 26px;
-  /* left: 0%; */
   text-align: left;
   background-color: #f9f9f9;
   width: 100%;
@@ -398,8 +402,8 @@ h3 {
   width: 80%;
   display: flex;
   height: 100%;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 0;
+  margin-left: 7%;
 }
 
 .cellar img {
@@ -438,8 +442,8 @@ h3 {
 .InstagramPhoto {
   display: flex;
   height: 100%;
-  width: 99%;
-  margin-top: 20%;
+  width: 100%;
+  margin-top: 149px;
 }
 
 .div2 {
@@ -451,13 +455,12 @@ h3 {
   display: flex;
   height: 100%;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 111px;
 }
 
 .shop {
-  margin-left: 5%;
-  margin-top: 12%;
-  width: 10%;
+  margin-top: 54px;
+  width: 13%;
 }
 .container1 img {
   margin-inline: 5px;
@@ -482,7 +485,7 @@ h3 {
 
 .foollow_us {
   width: 100%;
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 .Merchant a {
@@ -495,15 +498,20 @@ h3 {
 }
 
 .Follow {
-  margin-top: 7%;
-  width: 14%;
-  margin-left: 5%;
+  margin-top: 52px;
+  width: 17%;
 }
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more {
+  background: rgb(56, 151, 240);
+  display: none;
+}
+
 
 .map {
   width: 100%;
   display: flex;
   height: 100%;
+
 }
 
 .map iframe {
@@ -545,9 +553,8 @@ h3 {
   margin-left: 1%;
 }
 .container {
-  width: 86%;
+  width: 100%;
   height: 500px;
-  margin-inline: 7%;
 }
 
 .mapImage {
@@ -578,16 +585,19 @@ hr {
 
 .div3 {
   display: flex;
-  margin-top: 6%;
-  width: 90%;
+  width: 100%;
 }
 
 .Lorem {
-  width: 20%;
+  width: 23%;
   height: 100%;
   margin-left: 1%;
 }
 
+.desktop_footer{
+  margin-top: 80px;
+  width: 100%;
+}
 .View2 {
   font-size: 24px;
   width: 100%;
@@ -672,6 +682,9 @@ h3 {
   }
 
 
+  .body{
+    margin-inline: 0;
+  }
   
 .header {
  
@@ -799,6 +812,8 @@ h3 {
   .carousel ul {
     padding-inline-start: 0%;
     margin-block-end: 0em;
+    width: 100%;
+
   }
 
   .carousel .carouselImage {
@@ -830,9 +845,11 @@ h3 {
 
   .content {
     height: 100%;
-    width: 98%;
+    width: 96%;
     margin-top: 10%;
+    margin-left: 3%;
 }
+
 
   .row {
     display: block;
@@ -905,7 +922,6 @@ h3 {
     display: block;
     height: 100%;
     width: 100%;
-    margin-top: 30%;
   }
 
   .Follow {
@@ -1254,30 +1270,26 @@ h1{
 
 }
 }
-@media screen and (min-device-width: 2200px) and (max-device-width: 2600px) {
+@media screen and (min-device-width: 2200px) {
 
-  .next {
-    right: 18%;
-    font-size: 50px;
+
+.header{
+  height: 115px;
 }
-
-.prev {
-  left: -5%;
-  font-size: 50px;
-}
-
 
 .header a.logo {
 
-  font-size: 33px;
+  font-size: 23px;
 
 }
 .header a {
-  font-size: 31px;
+  font-size: 23px;
 }
 #search {
-  width: 28%;
+  width: 19%;
   height: 55px;
+  margin-left: 6%;
+  margin-top: 30px;
 }
 
 .header-right svg {
@@ -1287,4 +1299,91 @@ h1{
 .badge:after{
   right: 1.6rem;
 }
+
+.header-right {
+  float: inline-end;
+  margin-top: 38px;
+  margin-right: 40px;
+}
+/* 
+.carousel .carouselImage {
+  max-height: 100%;
+  height: 506px;
+  width: 50%;
+}
+
+.imageObject {
+  width: 50%;
+  height: 506px;
+}
+
+.p2 {
+  font-size: 24.06px;
+
+}
+
+.p3{
+  font-size: 20.31px;
+}
+.ioeImage{
+  height: 27%;
+}
+.viewmore {
+  width: 45%;
+  height: 12%;
+  gap: 0px;
+  border-radius: 2.19px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 10px;
+  background-color: #282626a6;
+  color: #b7926a;
+  border: 0.5px solid;
+  margin-left: 27%;
+}
+.row {
+  display: flex;
+  margin-top: 71px;
+  margin-left: 2%;
+  width: 95%;
+}
+.product{
+  margin-top: 111px;
+}
+.cellar{
+  margin-top: 0;
+  margin-left: 110px;
+}
+
+.shop {
+  margin-left: 93px;
+  margin-top: 54px;
+}
+
+.InstagramPhoto {
+  display: flex;
+  height: 100%;
+  width: 99%;
+  margin-top: 149px;
+}
+.Follow {
+  margin-top: 52px;
+  margin-left: 94px;
+  width: 10%;
+}
+.div3 {
+  display: flex;
+  margin-top: 91px;
+  width: 100%;
+}
+
+.imageParagraf {
+  width: 100%;
+}
+
+.foollow_us{
+  margin-left: 7%;
+}
+.InstagramPhoto{
+  width: 97%;
+} */
 }
