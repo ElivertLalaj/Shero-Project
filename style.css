@@ -18,6 +18,20 @@ body {
   margin-inline: 4%;
 }
 
+#header{
+  width: 98%;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.header_logo{
+  width: 22%;
+}
+
+.header_a {
+  width: 30%;
+}
 .header {
   background-color: #f1f1f1;
   border-radius: 20px;
@@ -27,28 +41,27 @@ body {
   right: 47px;
   gap: 0px;
   opacity: 0px;
-  width: 94%;
+  width: 96%;
   margin-bottom: 1%;
-  margin-inline: 3%;
+  margin-inline: 2%;
   margin-top: 1%;
+  align-content: center;
 }
 
 .header a {
   float: left;
   color: black;
   text-align: center;
-  padding: 1%;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-  margin-top: 20px;
+  width: calc(100% / 4);
 }
 
 .header a.logo {
-  width: 24%;
+  width: 100%;
   height: 22px;
-  margin-top: 20px;
   gap: 0px;
   opacity: 0px;
   font-family: Cormorant;
@@ -64,28 +77,41 @@ body {
 }
 
 .header-right {
-  float: inline-end;
-  margin-top: 25px;
-  margin-right: 40px;
+  width: 12%;
+  margin-left: 4%;
 }
 
 .header-right svg {
-  margin-inline: 15px;
+  width: calc(100% / 5);
 }
 
 .text {
   margin-left: 25px;
 }
 
+.search{
+  width: 16%;
+  display: flex;
+  align-items: center;
+  margin-left: 14%;
+}
+
 #search {
-  width: 23%;
+  width: 100%;
   height: 41px;
-  margin-left: 12px;
-  margin-top: 24px;
+  /* margin-top: 24px; */
   gap: 0px;
   border-radius: 20px;
   border: none;
   opacity: 0px;
+  font-family: Lora;
+font-size: 15px;
+font-style: italic;
+font-weight: 500;
+line-height: 19.2px;
+text-align: left;
+
+  
 }
 
 *.icon-blue {
@@ -124,8 +150,9 @@ i {
   margin-top: 10px;
 }
 
-#searchIcon {
-  margin-left: -101px;
+.search svg{
+    margin-left: -15%;
+
 }
 
 .banner {
@@ -206,7 +233,12 @@ h3 {
 
 .Merchant {
   margin-top: 129px;
-  width: 13%;
+  width: 16%;
+  font-family: Lora;
+    font-size: 30px;
+    font-weight: 500;
+    /* line-height: 51.2px; */
+    text-align: left;
 }
 
 .View {
@@ -280,12 +312,12 @@ h3 {
 }
 
 .carousel li {
-  width: 100%;
+  width: 90%;
   display: flex;
   border: 2px solid transparent;
   transition: border-color 0.5s ease;
   margin-top: 100px;
-  margin-left: 1%;
+  margin-inline: 7%;
 }
 
 .carousel .carouselImage {
@@ -361,8 +393,12 @@ h3 {
 .image-container {
   position: relative;
   width: 49%;
-  margin-left: 1%;
+  /* margin-left: 0%; */
 
+}
+
+#image-container{
+  margin-left: 1%;
 }
 
 .image-container img {
@@ -372,17 +408,28 @@ h3 {
 
 .imageParagraf {
   width: 100%;
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+
 }
 
 .text2 {
   position: relative;
-  bottom: 26px;
   text-align: left;
   background-color: #f9f9f9;
   width: 100%;
   font-family: Montserrat;
   font-weight: 400;
   line-height: 22px;
+  align-content: center;
+  height: 210px;
+}
+
+.padding_text{
+  margin-inline: 5%;
 }
 
 .text3 {
@@ -396,6 +443,12 @@ h3 {
 .text2 a {
   color: #b7926a;
   text-decoration: none;
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+text-align: left;
+
 }
 
 .cellar {
@@ -460,7 +513,11 @@ h3 {
 
 .shop {
   margin-top: 54px;
-  width: 13%;
+  width: 16%;
+  font-family: Lora;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
 }
 .container1 img {
   margin-inline: 5px;
@@ -484,7 +541,7 @@ h3 {
 }
 
 .foollow_us {
-  width: 100%;
+  width: 77%;
   margin-left: 7%;
 }
 
@@ -495,12 +552,18 @@ h3 {
 #p {
   color: #858080;
   width: 100%;
+  font-size: 17px;
 }
 
 .Follow {
   margin-top: 52px;
-  width: 17%;
-}
+  width: 16%;
+  font-family: Lora;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+  
+  }
 #eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more {
   background: rgb(56, 151, 240);
   display: none;
@@ -554,7 +617,7 @@ h3 {
 }
 .container {
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .mapImage {
@@ -573,11 +636,11 @@ hr {
 }
 
 .lastPart {
-  width: 70%;
+  width: 75%;
   display: flex;
   height: 100%;
   margin-left: 5%;
-  font-size: 12px;
+  font-size: 14px;
 }
 .text {
   width: 200px;
@@ -589,9 +652,8 @@ hr {
 }
 
 .Lorem {
-  width: 23%;
+  width: 20%;
   height: 100%;
-  margin-left: 1%;
 }
 
 .desktop_footer{
@@ -608,7 +670,7 @@ hr {
 
 .h6 {
   font-family: Cormorant;
-  font-size: 16.27px;
+  font-size: 21.27px;
   font-weight: 400;
   line-height: 25.76px;
   text-align: left;
@@ -619,11 +681,19 @@ hr {
   height: Hug (24px) px;
   gap: 0px;
   opacity: 0px;
+  font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.06499999761581421px;
+text-align: left;
+
 }
 
 .image .text6 {
   margin-inline: 12px;
   width: 100%;
+
 }
 
 .image {
@@ -634,7 +704,7 @@ hr {
 }
 
 h4 {
-  width: 161px;
+  width: 100%;
   font-family: Montserrat;
   font-size: 22px;
   font-weight: 300;
@@ -654,7 +724,29 @@ h3 {
 }
 
 .Information {
+  margin-left: 10%;
   width: calc(100% / 3);
+}
+
+.footer_p{ 
+  width: 70%;
+  font-family: Montserrat;
+  font-size: 18px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.06499999761581421px;
+text-align: left;
+height: 40px;
+gap: 0px;
+opacity: 0px;
+}
+
+.footer_div_p{
+width: 90%;
+gap: 0px;
+opacity: 0px;
+
+
 }
 
 @media screen and (min-device-width: 0px) and (max-device-width: 900px) {
@@ -794,6 +886,7 @@ h3 {
   .carousel .carouselDiv {
     display: block;
     width: 100%;
+    height: 600px;
   }
   .carousel {
     position: relative;
@@ -818,11 +911,12 @@ h3 {
 
   .carousel .carouselImage {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 50%;
     width: 100%;
   }
   .imageObject {
     width: 100%;
+    height: 50%;
   }
 
   .next {
@@ -836,7 +930,7 @@ h3 {
 
   .prev,
   .next {
-    top: 55%;
+    top: 50%;
     color: #10748559;
     border-radius: 10%;
     padding: 5px;
@@ -863,20 +957,30 @@ h3 {
   .image-container img {
     width: 95%;
     margin-inline: 0%;
+    height: 166px;
   }
 
   .text2 {
-    position: relative;
-    bottom: 26px;
-    left: 0%;
-    text-align: left;
-    background-color: #f9f9f9;
-    width: 95%;
     font-family: Montserrat;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 17px;
+    line-height: 22px;
+    text-align: left;
+    
   }
 
+  .text2 a {
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.63px;
+text-align: left;
+
+  }
+
+  .imageParagraf{
+    width: 95%;
+  }
   .product {
     display: block;
     height: 100%;
@@ -888,6 +992,21 @@ h3 {
     margin-left: 7%;
     width: 80%;
     margin-top: 0;
+    font-family: Lora;
+font-size: 24px;
+font-weight: 500;
+line-height: 30.72px;
+text-align: left;
+
+  }
+
+  .Follow{
+    font-family: Lora;
+font-size: 24px;
+font-weight: 500;
+line-height: 30.72px;
+text-align: left;
+
   }
 
   .cellar {
@@ -994,18 +1113,62 @@ h3 {
     width: 95%;
     height: 100%;
     margin-left: 0%;
+    font-family: Cormorant;
+font-size: 16.88px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+
+  }
+
+  .Lorem p {
+    font-family: Cormorant;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.95px;
+text-align: left;
+
   }
 
   .View2 {
     margin-top: 8%;
   }
 
+  .View{
+    width: 40%;
+    height: 34px;
+  }
+
+  #p{
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.63px;
+text-align: left;
+
+  }
   .lastPart {
     width: 95%;
     display: block;
     margin-left: 0;
   }
 
+  .footer_div_p{
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .footer_p{
+    width: 90%;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.06499999761581421px;
+    text-align: left;
+    
+  }
 
 
   .dropbtn {
@@ -1033,6 +1196,7 @@ h3 {
 
   .Information {
     width: 100%;
+    margin-left: 0;
 }
   
   .dropdown {
@@ -1132,258 +1296,66 @@ i {
 .sidebar-open-btn:hover {
   cursor: pointer;
 }
-}
-
-@media screen and (min-device-width: 900px) and (max-device-width: 1000px) {
 
 
-  #search {
-    width: 28%;
-    height: 42px;
-    margin-left: 4px;
-    margin-top: 24px;
- 
-}
-
-.header a.logo {
-  width: 24%;
-  height: 22px;
-  margin-top: 32px;
- 
-  font-size: 12px;
+.text3{
+  font-family: Lora;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.92px;
+text-align: left;
 
 }
 
+
+}
+
+@media screen and (min-device-width: 900px) and (max-device-width: 1310px) {
+
+  .Information {
+    margin-left: 0%;
+}
+
+.search {
+  width: 26%;
+  margin-left: 4%;
+}
+.header a.logo{
+  font-size: 14px;
+}
 .header a {
-
-  padding: 0.5%;
-  font-size: 10px;
-
-  margin-top: 30px;
-}
-#searchIcon {
-  margin-left: -38px;
+  font-size: 11px;
 }
 
-.header-right svg {
-  margin-inline: 10px;
+.header-right{
+  width: 15%;
 }
 
-.header-right {
- 
-  margin-right: 3%;
+.header_logo{
+  width: 30%;
 }
 
-h1{
-  font-size: 60px;
-}
-
-
-i {
-  width: 2%;
-}
-
-.Lorem img {
-  margin-top: 5%;
-  margin-inline: 5%;
-}
-}
-
-
-@media screen and (min-device-width: 1000px) and (max-device-width: 1200px) {
-
-  #search {
-    width: 28%;
-    height: 42px;
-    margin-left: 4px;
-    margin-top: 24px;
- 
-}
-
-.header a.logo {
-  width: 24%;
-  height: 22px;
-  margin-top: 32px;
- 
-  font-size: 13px;
-
-}
-
-.header a {
-
-  padding: 0.5%;
-  font-size: 13px;
-
-  margin-top: 30px;
-}
-#searchIcon {
-  margin-left: -38px;
-}
-
-.header-right svg {
-  margin-inline: 10px;
-}
-
-.header-right {
- 
-  margin-right: 3%;
-}
-i {
-  width: 2%;
-}
-
-h1{
-  font-size: 60px;
-}
-
-
-.Lorem img {
-  margin-top: 5%;
-  margin-inline: 5%;
+.header_a {
+  width: 31%;
+  margin-left: 3%;
 }
 
 }
 
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1300px) {
+@media screen and (min-device-width: 1700px) {
 
-
-  .header a.logo{
-    width: 25%;
-    margin-top: 30px;
+  .Merchant{
+    font-size: 40px;
   }
 
-  .header a {
-    padding: 0.5%;
-    font-size: 16px;
-    margin-top: 30px;
+  .shop{
+    font-size: 40px;
   }
-  
-  i {
-    width: 2%;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-}
-#searchIcon {
-  margin-left: -40px;
 
-}
-}
-@media screen and (min-device-width: 2200px) {
-
-
-.header{
-  height: 115px;
-}
-
-.header a.logo {
-
-  font-size: 23px;
-
-}
-.header a {
-  font-size: 23px;
-}
-#search {
-  width: 19%;
-  height: 55px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
-
-.header-right svg {
-  margin-inline: 36px;
-}
-
-.badge:after{
-  right: 1.6rem;
-}
-
-.header-right {
-  float: inline-end;
-  margin-top: 38px;
-  margin-right: 40px;
-}
-/* 
-.carousel .carouselImage {
-  max-height: 100%;
-  height: 506px;
-  width: 50%;
-}
-
-.imageObject {
-  width: 50%;
-  height: 506px;
-}
-
-.p2 {
-  font-size: 24.06px;
+  .Follow{
+    font-size: 40px;
+  }
 
 }
 
-.p3{
-  font-size: 20.31px;
-}
-.ioeImage{
-  height: 27%;
-}
-.viewmore {
-  width: 45%;
-  height: 12%;
-  gap: 0px;
-  border-radius: 2.19px 0px 0px 0px;
-  opacity: 0px;
-  margin-top: 10px;
-  background-color: #282626a6;
-  color: #b7926a;
-  border: 0.5px solid;
-  margin-left: 27%;
-}
-.row {
-  display: flex;
-  margin-top: 71px;
-  margin-left: 2%;
-  width: 95%;
-}
-.product{
-  margin-top: 111px;
-}
-.cellar{
-  margin-top: 0;
-  margin-left: 110px;
-}
-
-.shop {
-  margin-left: 93px;
-  margin-top: 54px;
-}
-
-.InstagramPhoto {
-  display: flex;
-  height: 100%;
-  width: 99%;
-  margin-top: 149px;
-}
-.Follow {
-  margin-top: 52px;
-  margin-left: 94px;
-  width: 10%;
-}
-.div3 {
-  display: flex;
-  margin-top: 91px;
-  width: 100%;
-}
-
-.imageParagraf {
-  width: 100%;
-}
-
-.foollow_us{
-  margin-left: 7%;
-}
-.InstagramPhoto{
-  width: 97%;
-} */
-}
