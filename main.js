@@ -7,22 +7,40 @@ let slideIndex = 1;
 
       function currentSlide(n) {
         showSlides((slideIndex = n));
+
       }
 
       function showSlides(n) {
         let i;
         const slides = document.querySelectorAll(".carousel ul li");
+
+       
+
         if (n > slides.length) {
-          slideIndex = 1;
+            slideIndex = 1;
         }
         if (n < 1) {
-          slideIndex = slides.length;
+            slideIndex = slides.length;
         }
         for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
+            slides[i].style.transition = "opacity 0.5s ease";
+            slides[i].style.opacity = 0; // Set opacity to 0 for all slides
+            slides[i].style.display = "none"; // Hide all slides
         }
-        slides[slideIndex - 1].style.display = "flex";
-      }
+        
+        slides[slideIndex - 1].style.display = "flex"; // Show the selected slide
+        setTimeout(() => {
+            slides[slideIndex - 1].style.opacity = 1;
+        }, 50); 
+      
+       
+    }
+    
+    
+      
+
+     
+
 
 
 
