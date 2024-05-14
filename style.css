@@ -31,9 +31,10 @@ body {
 
 .header_a {
   width: 30%;
+  margin-left: 5%;
 }
 .header {
-  background-color: #f1f1f1;
+  background-color: #d3d8dc;
   border-radius: 20px;
   height: 89px;
   top: 27px;
@@ -49,12 +50,16 @@ body {
 }
 
 .header a {
+  font-family: Lora;
+  font-size: 1.1vw;
+  font-weight: 400;
+  line-height: 23.04px;
+  text-align: left;
+
   float: left;
   color: black;
-  text-align: center;
+
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
   border-radius: 4px;
   width: calc(100% / 4);
 }
@@ -65,7 +70,7 @@ body {
   gap: 0px;
   opacity: 0px;
   font-family: Cormorant;
-  font-size: 17px;
+  font-size: 1.2vw;
   font-weight: 400;
   line-height: 21.8px;
   text-align: left;
@@ -90,16 +95,16 @@ body {
 }
 
 .search {
-  width: 16%;
+  width: 20%;
   display: flex;
   align-items: center;
-  margin-left: 14%;
+  margin-left: 6%;
 }
 
 #search {
   width: 100%;
   height: 41px;
-  /* margin-top: 24px; */
+  background: #FFFFFFBF;
   gap: 0px;
   border-radius: 20px;
   border: none;
@@ -167,7 +172,7 @@ i {
 
 h1 {
   font-family: Lora;
-  font-size: 79px;
+  font-size: 6vw;
   font-weight: 500;
   line-height: 122.88px;
   text-align: left;
@@ -240,10 +245,10 @@ h1 {
 
 .View {
   width: 95%;
-  height: 75px;
+  height: 4vw;
   background-color: white;
   border: 0.5px solid #b7926a;
-  font-size: 24px;
+  font-size: 1.4vw;
 }
 
 .Rectangle6 {
@@ -262,7 +267,7 @@ h1 {
 .p2 {
   width: 93%;
   font-family: Lora;
-  font-size: 24.06px;
+  font-size: 1.4vw;
   font-weight: 600;
   line-height: 30.8px;
   text-align: center;
@@ -275,7 +280,7 @@ h1 {
 
 .p3 {
   font-family: Montserrat;
-  font-size: 15.31px;
+  font-size: 1.1vw;
   font-weight: 400;
   line-height: 18.67px;
   text-align: center;
@@ -291,6 +296,7 @@ h1 {
 .carousel .carouselDiv {
   display: flex;
   width: 100%;
+  height: 30vw;
 }
 
 .divv {
@@ -311,16 +317,16 @@ h1 {
 }
 
 .carousel li {
-  width: 90%;
+  width: 96%;
   display: flex;
   border: 2px solid transparent;
   margin-top: 50px;
-  margin-inline: 7%;
+  margin-inline: 3%;
 }
 
 .carousel .carouselImage {
   max-height: 100%;
-  height: 506px;
+  height: 100%;
   width: 50%;
 }
 
@@ -348,14 +354,14 @@ h1 {
 
 .ioeImage {
   width: 30%;
-  height: 24%;
+  height: 7vw;
   margin-left: 35%;
   display: block;
 }
 
 .viewmore {
   width: 41%;
-  height: 11%;
+  height: 3vw;
   gap: 0px;
   border-radius: 2.19px 0px 0px 0px;
   opacity: 0px;
@@ -364,6 +370,10 @@ h1 {
   color: #b7926a;
   border: 0.5px solid;
   margin-left: 30%;
+}
+
+.carouselParagraf{
+  margin-top: 2vw;
 }
 
 .imageObject {
@@ -425,14 +435,16 @@ h1 {
 
 .text3 {
   font-family: Lora;
-  font-size: 24px;
+  font-size: 2vw;
   font-weight: 500;
   line-height: 30.72px;
   text-align: left;
+  margin-bottom: 1vw;
+  margin-top: 0vw;
 }
 #text3 {
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 1vw;
   font-weight: 400;
   line-height: 22px;
   text-align: left;
@@ -442,10 +454,14 @@ h1 {
   color: #b7926a;
   text-decoration: none;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 1.4vw;
   font-weight: 500;
   line-height: 24.38px;
   text-align: left;
+}
+
+.text4 p {
+  line-height: 26.5px;
 }
 
 .cellar {
@@ -467,7 +483,7 @@ h1 {
 
 .text4 {
   font-family: Montserrat;
-  font-size: 23px;
+  font-size:  1.2vw;
   font-weight: 400;
   line-height: 19.5px;
   position: absolute;
@@ -492,7 +508,7 @@ h1 {
   display: flex;
   height: 100%;
   width: 100%;
-  margin-top: 149px;
+  margin-top: 14vw;
 }
 
 .div2 {
@@ -548,7 +564,7 @@ h1 {
 #p {
   color: #858080;
   width: 100%;
-  font-size: 22px;
+  font-size: 1.3vw
 }
 
 .Follow {
@@ -611,6 +627,7 @@ h1 {
 .container {
   width: 100%;
   height: 600px;
+  margin-bottom: 8vw;
 }
 
 .mapImage {
@@ -632,13 +649,49 @@ hr {
   width: 75%;
   display: flex;
   height: 100%;
-  margin-left: 5%;
-  font-size: 14px;
+  margin-left: 10%;
 }
 .text {
   width: 200px;
 }
 
+.h1 {
+  border-bottom: 0.5px solid #b7926a;
+  font-family: Montserrat;
+  font-size: 1.4vw;
+  font-weight: 300;
+  line-height: 17.6px;
+  letter-spacing: 0.06499999761581421px;
+  text-align: left;
+  width: 17vw;
+  height: 40px;
+  top: -1px;
+  gap: 0px;
+  opacity: 0px;
+  color: #b7926a;
+  margin-left: 0%;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size:  1.25vw;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.06499999761581421px;
+  text-align: left;
+  color: #b7926a;
+}
+
+.h3 {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.06499999761581421px;
+  text-align: left;
+  width: 100%;
+}
 .div3 {
   display: flex;
   width: 100%;
@@ -654,16 +707,22 @@ hr {
   width: 100%;
 }
 .View2 {
-  font-size: 24px;
   width: 100%;
-  height: 51px;
+  height: 2.5vw;
   background-color: white;
   border: 0.5px solid #474443;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  letter-spacing: 0.06499999761581421px;
 }
 
 .h6 {
+  margin-top: 0px;
   font-family: Cormorant;
-  font-size: 21.27px;
+  font-size: 1.4vw;
+  width: 22vw;
   font-weight: 400;
   line-height: 25.76px;
   text-align: left;
@@ -713,13 +772,35 @@ h4 {
 h3 {
   width: 90%;
   font-family: Lora;
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: 500;
+  line-height: 51.2px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.Lorem h3 {
+  font-family: Lora;
+  font-size: 1vw;
+  font-weight: 600;
+  line-height: 20.48px;
   text-align: left;
 }
 
+.Lorem p {
+  font-family: Montserrat;
+  font-size: 1.1vw;
+  font-weight: 400;
+  line-height: 1.4vw;
+  text-align: left;
+}
+
+.line {
+  width: 110%;
+  border-top: solid 0.5px #b7926a;
+  margin-left: -5%;
+}
+
 .Information {
-  margin-left: 10%;
   width: calc(100% / 3);
 }
 
@@ -771,6 +852,7 @@ h3 {
   }
 
   .header {
+    background-color: #d3d8dc;
     width: 100%;
     margin-bottom: 0%;
     margin-inline: 0%;
@@ -827,6 +909,7 @@ h3 {
     font-weight: 400;
     line-height: 29.06px;
     text-align: left;
+    margin-bottom: 6.13vw;
   }
 
   .banner {
@@ -969,6 +1052,11 @@ h3 {
     font-size: 15px;
   }
 
+  .line {
+    width: 90%;
+    border-top: solid 0.5px #b7926a;
+    margin-inline: 5%;
+}
   .imageParagraf {
     width: 95%;
     margin-bottom: 2%;
@@ -1024,6 +1112,9 @@ h3 {
     text-align: left;
   }
 
+  .viewmore{
+    height: 9vw;
+  }
   #image {
     margin-top: 25%;
   }
@@ -1149,6 +1240,16 @@ h3 {
   }
   .ioeImage {
     height: 20%;
+  }
+
+  .Lorem h3 {
+    font-family: Cormorant;
+font-size: 16.88px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+
   }
 
   #p {
@@ -1320,7 +1421,7 @@ h3 {
   }
 }
 
-@media screen and (min-device-width: 900px) and (max-device-width: 1310px) {
+/* @media screen and (min-device-width: 900px) and (max-device-width: 1310px) {
   .Information {
     margin-left: 0%;
   }
@@ -1354,7 +1455,7 @@ h3 {
   h3 {
     font-size: 20px;
   }
-}
+} */
 
 @media screen and (min-device-width: 1700px) {
 }
